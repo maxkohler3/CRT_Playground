@@ -6,9 +6,9 @@ Library                   String
 
 *** Keywords ***
 Setup Browser
-    Open Browser          about:blank                 ${BROWSER}
-    SetConfig             LineBreak                   ${EMPTY}               #\ue000
-    SetConfig             DefaultTimeout              20s                    #sometimes salesforce is slow
+    Open Browser          about:blank                 chrome
+  #  SetConfig             LineBreak                   ${EMPTY}               #\ue000
+  #  SetConfig             DefaultTimeout              20s                    #sometimes salesforce is slow
 
 
 End suite
