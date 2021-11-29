@@ -7,4 +7,5 @@ Suite Teardown                End suite
 
 PDF Test
     UsePdf                   ../resources.Set.pdf
+    ${text}                  GetPdfText    
 
