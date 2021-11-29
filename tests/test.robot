@@ -1,5 +1,6 @@
 *** Settings ***
 Resource                      ../resources/common.robot
+Resource                      ../resources/Set.pdf
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
